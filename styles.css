@@ -1,0 +1,128 @@
+nav {
+    width: 90%;
+    max-width: 1000px;
+    height: 10px;
+    border-bottom: #e4248b;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: pink;
+    color: black;
+    border-bottom: 5px dotted black;
+  }
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+}
+
+nav > ul > li {
+    color: #e4248b;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+  
+p {
+    margin: 10px 300px;
+    text-indent: 20px;
+}
+
+.dotted {
+  border: dotted 5px;
+  background-color: pink;
+ 
+}
+
+body {
+  padding:50px;
+}
+
+img {
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Space between each item */
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between image and text within each item */
+    width: calc(33.333% - 20px); /* Ensure the item takes up a third of the container's width minus gap */
+}
+
+.image-box {
+    flex: 1;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto; /* Ensures the image scales proportionally */
+}
+
+.middle {
+    padding: 0 -30px;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+
+textarea {
+    background-color: lightpink;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+}
+
+
+input[type="submit"] {
+    display: block;
+    width: 40%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: lightpink;
+    border-color: black;
+    min-width: 300px;
+  }
+
+input[type="file"] {
+    padding: 1px 2px;
+}
+
+#heb {
+    text-align:center;
+}
